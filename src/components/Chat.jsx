@@ -9,7 +9,7 @@ import icon from "../styles/images/emoji.svg";
 import styles from "../styles/Chat.module.css";
 import Messages from "./Messages";
 
-const socket = io.connect("https://online-chat-900l.onrender.com");
+const socket = io.connect("https://vstu-chat.onrender.com");
 
 const Chat = () => {
     const { search } = useLocation();
